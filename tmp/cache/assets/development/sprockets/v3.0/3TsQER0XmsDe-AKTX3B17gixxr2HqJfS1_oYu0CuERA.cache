@@ -1,0 +1,10 @@
+I"¿(function() {
+  $(function() {
+    return $('a[data-action="lock"]').click(function(event) {
+      $("#dialog_confirm").hide();
+      return console.log('aaa');
+    });
+  });
+
+}).call(this);
+:ET
