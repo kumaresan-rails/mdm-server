@@ -8,6 +8,7 @@ $(document).ready(function (){
 		if($(".ui-dialog").is(":visible")){ return true};
 		setTimeout(function(){
 		   $(".ui-dialog-content.ui-widget-content").css('display','none');
+		   $(".ui-dialog-buttonset").css('margin-left','65px');
 		},50)
 	});
 });
